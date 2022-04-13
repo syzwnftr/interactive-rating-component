@@ -118,3 +118,13 @@ main {
     background-color: var(--white);
     color: var(--orange);
 }
+
+.hide {
+    display: none;
+}
+
+.receipt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
