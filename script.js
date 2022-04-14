@@ -4,10 +4,8 @@ const container1 = document.querySelector('.container');
 const container2 = document.querySelector('.container-2');
 let userRating = document.querySelector('.user-rating');
 
-
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
-        console.log(btn.textContent);
         userRating.textContent = btn.textContent;
     })
 });
