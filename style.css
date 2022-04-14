@@ -23,6 +23,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     min-height: 100vh;
     font-family: 'Overpass', sans-serif;
     color: var(--white);
@@ -122,6 +123,10 @@ main {
 .hide {
     display: none;
 }
+
+/* .container-2 {
+    margin-top: 2rem;
+} */
 
 .receipt {
     display: flex;
