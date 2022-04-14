@@ -160,3 +160,9 @@ main {
     font-size: 0.9375rem;
     color: var(--mediumGrey);;
 }
+
+@media (min-width: 411px) {
+    .container {
+        max-width: 390px;
+    }
+}
